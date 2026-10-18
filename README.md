@@ -13,7 +13,7 @@ Requirements: `torch`, `transformers`, `peft`, `datasets`, `numpy`, `tqdm`.
 | `data_prep/` | dataset preparation into `data_prepared/`, plus the synthesized structural-relation and same-row task builders |
 | `table/` | table serialization utilities: truncation / budget fitting |
 | `lora/` | LoRA variants and role conditioning |
-| `attention/` | attention-level mechanisms: structural attention bias, context relay masks, target-column masking, target sandwich, the attention kernels and their training hooks |
+| `attention/` | attention-level mechanisms: the attention kernels and their training hooks |
 
 ## Data
 
